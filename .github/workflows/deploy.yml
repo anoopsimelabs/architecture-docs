@@ -24,13 +24,3 @@ jobs:
         run: mkdocs gh-deploy --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CI: false
-      - name: Clean up
-        run: |
-          echo "Cleaning up..."
-          rm -rf site
-          echo "Cleanup complete."
-      - name: Notify completion
-        run: |
-          echo "Deployment completed successfully!"
-          echo "You can view the documentation at: https://<your-username>.github.io/<your-repo-name>/"
