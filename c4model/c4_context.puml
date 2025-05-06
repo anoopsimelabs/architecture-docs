@@ -1,0 +1,19 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(employee, "Employee", "Uses internal system")
+Person(hr, "HR/Admin", "Manages employee-related data")
+
+System(system, "Internal Zoho-like System", "Custom internal application for employee management")
+
+System_Ext(email, "Email System", "SMTP or external notification service")
+System_Ext(storage, "File Storage", "S3 or internal storage")
+System_Ext(auth, "Auth Provider", "Python Auth service or Keycloak")
+
+Rel(employee, system, "Uses")
+Rel(hr, system, "Uses")
+Rel(system, email, "Sends email notifications")
+Rel(system, storage, "Uploads/downloads documents")
+Rel(system, auth, "Authenticates users")
+
+@enduml
