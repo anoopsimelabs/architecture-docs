@@ -17,11 +17,9 @@ jobs:
 
       - name: Render .puml to .png
         run: |
-          mkdir -p rendered
           for f in c4model/*.puml; do
-            plantuml -tpng "$f" -o rendered/
+            plantuml -tpng "$f"
           done
-          cp rendered/*.png c4model/
 
       - name: Commit rendered images
         run: |
