@@ -19,6 +19,10 @@ jobs:
 
       - name: Install MkDocs Material
         run: pip install mkdocs-material
+      - name: Install MkDocs Mermaid
+        run: pip install mkdocs-mermaid2-plugin
+      - name: Install MkDocs Pymdown Extensions
+        run: pip install pymdown-extensions
 
       - name: Deploy MkDocs site to GitHub Pages
         run: mkdocs gh-deploy --force
