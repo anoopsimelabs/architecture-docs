@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://anoopsimelabs.github.io/architecture-docs/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://anoopsimelabs.github.io/architecture-docs/adr/0001-migrate-to-springboot/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://anoopsimelabs.github.io/architecture-docs/adr/0002-use-mui/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://anoopsimelabs.github.io/architecture-docs/adr/0003-convert-long-forms/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://anoopsimelabs.github.io/architecture-docs/diagrams/context/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://anoopsimelabs.github.io/architecture-docs/diagrams/existing-container/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://anoopsimelabs.github.io/architecture-docs/diagrams/proposed-container/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+</urlset>
