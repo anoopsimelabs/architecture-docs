@@ -24,6 +24,8 @@ nav:
       - 0001. Migrate to SpringBoot service: adr/0001-migrate-to-springboot.md
       - 0002. Use MUI Design system: adr/0002-use-mui.md
       - 0003. Converting long forms: adr/0003-convert-long-forms.md
+    PAPI Diagrams:
+      - Context: diagrams/context.md
 
 plugins:
   - search
@@ -45,3 +47,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
