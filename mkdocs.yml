@@ -15,7 +15,6 @@ theme:
     - toc.integrate
     - navigation.expand
     - navigation.instant
-    - navigation.top
     - navigation.tracking
 
 nav:
