@@ -16,13 +16,16 @@ theme:
 nav:
   - PAPI:
       - ADRs:
-          - 0001. Migrate to SpringBoot service: adr/0001-migrate-to-springboot.md
-          - 0002. Use MUI Design system: adr/0002-use-mui.md
-          - 0003. Converting long forms: adr/0003-convert-long-forms.md
+          - 0001. Database Schema Refactoring: adr/db-schema-refactoring.md
+          - 0002. Migrate to SpringBoot service: adr/migrate-to-springboot.md
+          - 0003. Use MUI Design system: adr/use-mui.md
+          - 0004. Converting long forms: adr/convert-long-forms.md
       - Diagrams:
           - Context: diagrams/context.md
           - Container (Existing): diagrams/existing-container.md
           - Container (Proposed): diagrams/proposed-container.md
+      - Others:
+          - Tables and Field Countss: others/tables-and-field-counts.md
 
 plugins:
   - search
