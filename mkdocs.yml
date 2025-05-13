@@ -24,6 +24,7 @@ nav:
           - Context: diagrams/context.md
           - Container (Existing): diagrams/existing-container.md
           - Container (Proposed): diagrams/proposed-container.md
+          - Entity Relationship Diagram: diagrams/erd.md
       - Others:
           - Tables and Field Countss: others/tables-and-field-counts.md
 
