@@ -1,4 +1,4 @@
-# ADR-001: Migrate Authentication from Python to Spring Boot service
+# ADR-002: Migrate Authentication from Python to Spring Boot service
 
 ## Status
 

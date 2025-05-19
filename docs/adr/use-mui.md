@@ -1,4 +1,4 @@
-# ADR-002: Standardize Frontend with MUI Design System
+# ADR-003: Standardize Frontend with MUI Design System
 
 ## Status
 

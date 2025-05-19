@@ -1,4 +1,4 @@
-# ADR-001: Include Fitness Functions for Architecture Validation
+# ADR-005: Include Fitness Functions for Architecture Validation
 
 ## Status
 
