@@ -20,13 +20,16 @@ nav:
           - 0002. Migrate to SpringBoot service: adr/migrate-to-springboot.md
           - 0003. Use MUI Design system: adr/use-mui.md
           - 0004. Converting long forms: adr/convert-long-forms.md
+      - Draft ADRs:
+          - 0005. Include Fitness Functions: adr/include-fitness-functions.md
       - Diagrams:
           - Context: diagrams/context.md
           - Container (Existing): diagrams/existing-container.md
           - Container (Proposed): diagrams/proposed-container.md
           - Entity Relationship Diagram: diagrams/erd.md
       - Others:
-          - Tables and Field Countss: others/tables-and-field-counts.md
+          - Tables and Field Counts: others/tables-and-field-counts.md
+          - API Endpoints: others/api-endpoints.md
 
 plugins:
   - search
