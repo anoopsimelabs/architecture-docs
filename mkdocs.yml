@@ -23,7 +23,8 @@ nav:
       - Draft ADRs:
           - 0005. Include Fitness Functions: adr/include-fitness-functions.md
       - Diagrams:
-          - Context: diagrams/context.md
+          - Context (Existing): diagrams/context.md
+          - Context (Proposed): diagrams/proposed-context.md
           - Container (Existing): diagrams/existing-container.md
           - Container (Proposed): diagrams/proposed-container.md
           - Entity Relationship Diagram: diagrams/erd.md
