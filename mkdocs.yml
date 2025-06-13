@@ -28,7 +28,7 @@ nav:
           - Container (Existing): diagrams/existing-container.md
           - Container (Proposed): diagrams/proposed-container.md
           - Entity Relationship Diagram: diagrams/erd.md
-        Estimates: others/estimation.md
+      - Estimates: others/estimation.md
       - Others:
           - Tables and Field Counts: others/tables-and-field-counts.md
           - API Endpoints: others/api-endpoints.md
